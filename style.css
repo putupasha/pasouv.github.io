@@ -1,0 +1,490 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+header-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;  
+    background-color: #ffffff;  
+    z-index: -1;
+}
+
+nav {
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #040D12;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+}
+
+.kolom .deskripsi {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'comic sans ms';
+    margin-left: 50px;
+    padding-bottom: 10px;
+    color: #040D12;
+}
+
+h2 {
+    font-family: 'poppins bold';
+    font-weight: 800;
+    font-size: 50px;
+    margin-left: 50px;
+    color: #040D12;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-hitam {
+    background: black;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hitam:hover {
+    background: #526E48;
+    text-decoration: none;
+}
+
+a.tbl-hijau {
+    background: #526E48;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-hijau:hover {
+    background: black;
+    text-decoration: none;
+}
+
+.Lambang {
+    display: block;
+    margin: 20px auto 0;
+    padding-top: 20px;
+    position: center;
+    width: 350px; 
+    transform: rotate(0deg); 
+    transition: transform 0.3s ease; 
+}
+
+.Lambang:hover {
+    transform: rotate(-15deg);
+}
+
+h3 {
+    font-family: 'poppins bold';
+    font-weight: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+    position: center;
+}
+
+#produk {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.kolom {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.keterangan {
+    background: #526E48;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.keterangan:hover {
+    background: black;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    gap: 20px;
+    padding: 10px 0;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.produk-item {
+    text-align: center;
+    flex: 0 0 auto; 
+    min-width: 250px; 
+    box-sizing: border-box; 
+}
+
+.produk-item img {
+    width: 250px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.produk-item img:hover {
+    transform: scale(1.05);
+}
+
+#portofolio {
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+
+.kolom {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.founder-img {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.founder-img img {
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 2;
+}
+
+.testimoni {
+    margin-bottom: 50px;
+}
+
+.testimoni-carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.testimoni-item {
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.galeri-carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+.galeri-carousel img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'comic sans ms';
+    color: black;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: 50px;
+}
+
+#order {
+    padding: 50px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.order-section {
+    max-width: 600px;
+    margin:auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#signup {
+    padding: 50px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+.signup-section {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#header-box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#header-box h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+#header-box p {
+    font-size: 16px;
+    color: #666;
+}
+
+.tbl-hijau {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.tbl-hijau:hover {
+    background-color: #45a049;
+}
+
+.header-box {
+    background-color: black;  
+    height: 20px;               
+    margin-bottom: 20px;        
+}
+
+#contact {
+    background-color: black;   
+    text-align: center;          
+    font-family: Arial, sans-serif;
+}
+
+#contact .kolom {
+    max-width: 500px;            
+    margin: 0 auto;              
+}
+
+#contact p {
+    font-size: 16px;           
+    color: #ffffff;                
+    line-height: 1.5;           
+}
+
+#contact p strong {
+    color: #ffffff;                
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;   
+    color: white;                
+    text-decoration: none;       
+    border-radius: 5px;          
+    margin-top: 20px;            
+    font-size: 16px;      
+}       
+
+.contact-button:hover {
+    background-color: #4CAF50; 
+}
